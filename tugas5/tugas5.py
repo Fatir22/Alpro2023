@@ -15,7 +15,7 @@ def load_text():
         return f.read()
 
 
-if __name__ == "___main__":
+if __name__ == "__main__":
     text = load_text()
 
     if text is not None: 
